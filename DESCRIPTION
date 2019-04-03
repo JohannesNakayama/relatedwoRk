@@ -1,0 +1,14 @@
+Package: relatedwoRk
+Type: Package
+Title: Provide RMarkdown template for comprehensive literature review
+Version: 0.1.0
+Author: Johannes Nakayama
+Maintainer: Johannes Nakayama <nakayama@comm.rwth-aachen.de>
+Description: When reviewing literature / related work for a scientific paper, organizing one's notes on the 
+  different readings can be a chore. This project provides an RMarkdown template for comprehensive literature 
+  reviews to help scientist organize their readings in a comprehensive and tidy way.
+Imports:
+  RefManageR
+License: CC0
+Encoding: UTF-8
+LazyData: true

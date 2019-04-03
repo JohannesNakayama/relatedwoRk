@@ -20,11 +20,8 @@ NOTE: You should think of a convention for naming your review documents so that 
 
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
-# load if you want to obtain bibtex entry from within R ----
-# library(RefManageR)
-
 # execute if you want to generate bibtex from doi ----
-# GetBibEntryWithDOI(doi = "", temp.file = "tmp.bib", delete.file = TRUE)
+# RefManageR::GetBibEntryWithDOI(doi = "", temp.file = "tmp.bib", delete.file = TRUE)
 
 ```
 
