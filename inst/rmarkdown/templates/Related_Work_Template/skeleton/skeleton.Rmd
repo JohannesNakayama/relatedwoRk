@@ -25,12 +25,11 @@ RefManageR::toBiblatex(
 
 ```
 
+<!--copy and paste bibtex entry in the following code chunk-->
 
 ```{bibtex}
 
-# put bibtex entry here ----
 
- 
 
 ```
 
