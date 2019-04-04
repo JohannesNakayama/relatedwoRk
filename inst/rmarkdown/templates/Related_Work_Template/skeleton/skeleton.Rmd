@@ -6,16 +6,6 @@ date: "reviewed: `r format(Sys.time(), '%d %B, %Y')`"
 output: pdf_document
 ---
 
-<!--
-
-When reviewing literature for a scientific paper, it is necessary to have a standardized way of handling and reviewing it. This a template for a comprehensive literature review that you can use for your own purposes. The questions below are adopted from William G. Griswold's great guide on how to read an engineering paper (http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html). 
-
-NOTE: You should think of a convention for naming your review documents so that you can query them later. Here is a suggestion:
-
-<first author's last name>_<year>_<title>
-
---> 
-
 ```{r setup, include=FALSE}
 
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
