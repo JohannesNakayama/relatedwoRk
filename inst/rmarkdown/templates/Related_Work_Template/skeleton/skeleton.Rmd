@@ -11,7 +11,13 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 # execute if you want to generate bibtex from doi ----
-# RefManageR::GetBibEntryWithDOI(doi = "", temp.file = "tmp.bib", delete.file = TRUE)
+# RefManageR::toBiblatex(
+#   RefManageR::GetBibEntryWithDOI(
+#     doi = "", 
+#     temp.file = "tmp.bib", 
+#     delete.file = TRUE
+#   )
+# )
 
 ```
 
