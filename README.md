@@ -26,7 +26,15 @@ Have the template open while doing your reading. If you find something worth sum
 
 The `setup` code chunk contains a call to the function `GetBibEntryWithDOI()` from the R package `RefManageR`. Insert the DOI of your source like this:  
 
-`RefManageR::GetBibEntryWithDOI(doi = "<your doi>", temp.file = "tmp.bib", delete.file = TRUE)`
+```
+RefManageR::toBiblatex(
+  RefManageR::GetBibEntryWithDOI(
+    doi = "<insert doi here>", 
+    temp.file = "tmp.bib", 
+    delete.file = TRUE
+  ) 
+)
+```
 
 When you execute it in the RMarkdown sheet, it will generate a bibtex entry for your source. You can copy and paste it into the `bibtex` code chunk. This will display the bibtex entry in the final pdf file. Remember to comment out the `GetBibEntryWithDOI()` call after you obtained the bibtex entry.
 
