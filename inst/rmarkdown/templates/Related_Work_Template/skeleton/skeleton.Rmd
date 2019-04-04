@@ -33,44 +33,46 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 ```
 
-title: <put title here>
+title: <!--insert title-->
 
-author(s): <put author names here>
+author(s): <!--insert author names-->
 
-year: <put year here>
+year: <!--insert publication year-->
+
+## Abstract
+
+> <!--insert abstract--> 
 
 
+## What are the *motivations* for this work?
 
+<!--your text-->
 
-# What are the *motivations* for this work?
+## What is the proposed *solution*?
 
-<your text>
+<!--your text-->
 
-# What is the proposed *solution*?
+## What is the work's *evaluation* of the proposed solution?
 
-<your text>
+<!--your text-->
 
-# What is the work's *evaluation* of the proposed solution?
+## What is your analysis of the identified problem, idea and evaluation?
 
-<your text>
+<!--your text-->
 
-# What is your analysis of the identified problem, idea and evaluation?
+## What are the *contributions*?
 
-<your text>
+<!--your text-->
 
-# What are the *contributions*?
+## What are *future directions* for this research?
 
-<your text>
+<!--your text-->
 
-# What are *future directions* for this research?
+## What questions are you left with?
 
-<your text>
+<!--your text-->
 
-# What questions are you left with?
+## What is your take-away message from this paper?
 
-<your text>
-
-# What is your take-away message from this paper?
-
-<your text>
+<!--your text-->
 
