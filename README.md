@@ -36,8 +36,6 @@ RefManageR::toBiblatex(
 )
 ```
 
-In the template, the code is commented out, so that it does not show when knitting the document. You can uncomment the code in the document by selecting it and executing `CTRL + ALT + C`.
-
 When you execute it in the RMarkdown sheet, it will generate a bibtex entry for your source. You can copy and paste it into the `bibtex` code chunk. This will display the bibtex entry in the final pdf file. Remember to comment out the `GetBibEntryWithDOI()` call after you obtained the bibtex entry.
 
 NOTE: You should think of a convention for naming your review documents so that you can query them later. Here is a suggestion:
