@@ -2,7 +2,7 @@
 ---
 title: "Insert the title of the paper"
 author: "insert author(s) of the paper here"
-date: "reviewed: `r format(Sys.time(), '%d %B, %Y')`"
+date: "reviewed: `r format(Sys.time(), '%d %B, %Y')`, by insert reviewer's name"
 output: pdf_document
 ---
 
