@@ -2,7 +2,7 @@
 
 When reviewing literature / related work for a scientific paper, organizing one's notes on the different readings can be a chore. This project provides an RMarkdown template for comprehensive literature reviews to help scientist organize their readings in a comprehensive and tidy way.  
 
-The questions in the template are adopted from William G. Griswold's great guide on how to read an engineering paper (http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html). Feel free to customize them to fit your needs when reviewing related work.  
+The questions in the template are adopted from William G. Griswold's guide on how to read an engineering paper (http://cseweb.ucsd.edu/~wgg/CSE210/howtoread.html). Feel free to customize them to fit your needs when reviewing related work.  
 
 (I recommend using RStudio for the further steps)
 
